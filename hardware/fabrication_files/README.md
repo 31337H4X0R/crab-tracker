@@ -1,1 +1,3 @@
-This directory contains zipped gerber files of all current Crab Tracker prototypes. Each .zip should contain all of the files necessary for you to order these PCBs from your favorite fab.
+This directory contains hardware design files of all current Crab Tracker prototypes. Each .zip file contains the Altium project files needed to make modifications to custom electronics.
+
+The gerber_files folder contains all of the files necessary for to order these PCBs from your favorite fab.
