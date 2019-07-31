@@ -8,28 +8,22 @@ This repository contains hardware designs and software to create prototypes of a
 
 This repository is intended as supplemental information for *Barnes 2019. The Crab Tracker: Ultrasonic telemetry to relocate and quantify space use of benthic estuarine crustaceans. Western Washington University.* As supplemental information, **this repository will not be updated with future work**. A link will be provided here if further work is conducted on the Crab Tracker. The thesis document contains full technical details of this project as well as further considerations for the use of telemetry technology, and is available in WWU's CEDAR archive here: https://cedar.wwu.edu/wwuet/.
 
+This repository is a fork of the working repository https://github.com/cabeese/crab-tracker/. The present repository adds hardware schematics and fabrication details to the working repository and removes some content not related to the thesis publication referenced above.
+
 ## Directory Contents:
 `/GUI` - contains Python code for the graphical user interface.
 
 `/doc` - documentation: 
+* discussion of signal collision probability and mitigation strategies
 * how to configure Rasp Pi Model B
 * how to wire all hardware components to each other
 * detailed description of code contained in `/src`
 * an overview of SPI communication between different hardware components
-* discussion of signal collision probability and mitigation strategies
 
-`/hardware` - contains
+`/hardware` - contains design and fabrication files as well as parts lists for custom electronics - **STILL NEED TO ADD FILES**
 
 `/src` - all code other than GUI code, including:
-* code to program emitters
 * code to configure the GPX2 timing chip
 * code to generate simulated arrival times from an emitter
-
-All code is contained in the src directory.
-
-Design files, fabrications files, parts lists, and photos of custom electronic prototypes are available in the Hardware directory
-
-
-
-
-**This repository is a fork of https://github.com/cabeese/crab-tracker/. This repository adds hardware schematics and fabrication details to the original repository and removes some content not directly related to the thesis publication referenced above.**
+* code to program emitters **STILL NEED TO ADD**
+* code for main Crab Tracker program
