@@ -11,7 +11,7 @@ This repository is intended as supplemental information for *Barnes 2019. The Cr
 ## Directory Contents:
 `/GUI` - contains Python code for the graphical user interface.
 
-`/doc` - contains the following documentation: 
+`/doc` - documentation: 
 * how to configure Rasp Pi Model B
 * how to wire all hardware components to each other
 * detailed description of code contained in `/src`
