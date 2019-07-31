@@ -25,5 +25,5 @@ This repository is a fork of the working repository https://github.com/cabeese/c
 `/src` - all code other than GUI code, including:
 * code to configure the GPX2 timing chip
 * code to generate simulated arrival times from an emitter
-* code to program emitters **STILL NEED TO ADD**
+* code to program emitters
 * code for main Crab Tracker program
