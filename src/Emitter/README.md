@@ -1,1 +1,3 @@
 Crab22.ino is a file written in the Arduino language that will program an ATTINY85 microcontroller to emitter pulses with chirp and pulse times that correspond to crab # 22.
+
+Modifying code so that unique identifiers for other crabs will require 1) determining an appropriate value for chirp time, pulse time, and signal time given the requirements of the study, and 2)  fine-tuning the timing in this code so that pulses generated have the expected length; electronics cannot deliver and respond to voltage changes instantaneously, therefore theoretical pulse time calculations must be verified empirically.
