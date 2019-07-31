@@ -20,7 +20,7 @@ This repository is a fork of the working repository https://github.com/cabeese/c
 * detailed description of code contained in `/src`
 * an overview of SPI communication between different hardware components
 
-`/hardware` - contains design and fabrication files as well as parts lists for custom electronics - **STILL NEED TO ADD FILES**
+`/hardware` - contains design and fabrication files as well as parts lists for custom electronics
 
 `/src` - all code other than GUI code, including:
 * code to configure the GPX2 timing chip
